@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 5 - Advanced Trivia Game</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Advanced Trivia Game">
+
+	<!-- add link to the jQuery Library -->
+	<script src="assets/javascript/jquery-3.1.1.min.js"></script>
+
+	<!-- set up style sheets -->
+	<!-- reset not needed because using bootstrap -->
+	<!-- <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"> -->
+	<!-- Link in locally stored min version of bootstrap.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- Make final css adjustments with personal stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+	
+	<!-- begin the bootstrap container -->
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="page-header col-md-8">
+			  <h1 class="text-center">Advanced Trivia Game - Classic Movies!</small></h1>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+		<!-- Start button div -->
+		<div class="row">
+			<div class="col-md-4"></div>
+			<button type="button" id="startButton" class="btn btn-default btn-lg col-md-4">START</button>
+			<div class="col-md-4"></div>
+		</div>
+
+		<!-- Questions div -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div id="questionAsked" class="text-center col-md-6">
+				<div class="row">
+					<div id="theQuestion" class="col-md-12">theQuestion</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-default btn-md col-md-6 options" id="button0" data-value=0>Button0</button>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-default btn-md col-md-6 options" id="button1" data-value=1>Button1</button>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-default btn-md col-md-6 options" id="button2" data-value=2>Button2</button>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-default btn-md col-md-6 options" id="button3" data-value=3>Button3</button>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<!-- checkAnswer div -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div id="checkAnswer" class="text-center col-md-6"></div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<!-- Timer div -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div id="timerDiv" class="text-center col-md-6"></div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<!-- Start Over button div -->
+		<div class="row">
+			<div class="col-md-4"></div>
+			<button type="button" id="startOverButton" class="btn btn-default btn-lg col-md-4">START OVER?</button>
+			<div class="col-md-4"></div>
+		</div>
+
+	<!-- end the bootstrap container -->
+	</div>
+
+	<!-- Link to the game javascript -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

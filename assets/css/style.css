@@ -1,0 +1,51 @@
+/*Advanced Trivia Game CSS*/
+
+body {
+	background: url("../images/Background-Film.jpg");
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: white;
+	font-family: fantasy;
+}
+
+#timerDiv {
+	color: white;
+	display: none;
+	margin-top: 10px;
+}
+
+h2 {
+	color: white;
+}
+
+img {
+	width: 300px;
+	height: auto;
+	border: solid 3px white;
+	margin-top: 20px;
+}
+
+.options {
+	margin-top: 15px;
+}
+
+#questionAsked {
+	color: white;
+	display: none;
+}
+
+#checkAnswer {
+	color: white;
+	display: none;
+}
+
+#startButton {
+	margin-top: 150px;
+}
+
+#startOverButton{
+	margin-top: 50px;
+	display: none;
+}
